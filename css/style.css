@@ -1,8 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
 
 body {
     font-family: 'Spectral', serif;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav > p {
+    margin: 12px 0;
+    padding: 0 20px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.home {
+    background: url(../images/bg-darkened-cropped3.jpeg) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 641px;
+    color: white;
 }
 
 h1 {
@@ -27,4 +51,8 @@ h1, h2, h3 {
 
 .social > i {
     padding: 0 5px;
+}
+
+.down-arrow {
+    position: absolute;
 }
