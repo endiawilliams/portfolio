@@ -118,3 +118,45 @@ h3 {
 .about-me-text {
     padding: 1% 10%;
 }
+
+.skills-row {
+    display: flex;
+    justify-content: center;
+}
+
+.skill-logos {
+    text-align: center;
+    padding: 0 5%;
+}
+
+.fa-html5 {
+    color: #e64c18;
+}
+
+.fa-css3-alt {
+    color: #264de4;
+}
+
+.fa-js-square {
+    color: #f1dd3f;
+}
+
+.fa-node-js {
+    color: #509f3d;
+}
+
+.fa-react {
+    color: #4dc1e0;
+}
+
+.fa-python {
+    color: #4e9abc;
+}
+
+.fa-docker {
+    color: #2395ec;
+}
+
+.fa-bootstrap {
+    color: #7952b3;
+}
