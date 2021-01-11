@@ -49,7 +49,7 @@ nav > a {
     transition: 0.3s;
 }
 
-nav > a:hover {
+nav > a:hover, .current {
     color: #8A66C8;
     opacity: 1;
 }
@@ -101,6 +101,10 @@ h3 {
     margin: 0;
 }
 
+h4 {
+    text-align: center;
+}
+
 .social {
     display: flex;
     justify-content: center;
@@ -110,7 +114,7 @@ h3 {
     position: absolute;
 }
 
-.about-me {
+.about-me, .projects {
     background-color: #272C30;
     color: white;
 }
