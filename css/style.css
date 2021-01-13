@@ -74,10 +74,14 @@ nav > a:hover, .current {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 21.18%;
-    padding-bottom: 21.18%;
+    padding-top: 20.31%;
+    padding-bottom: 20.31%;
     width: 100%;
     color: white;
+}
+
+.about-me, .skills, .projects, .resume {
+    padding: 1%;
 }
 
 h1 {
@@ -96,6 +100,7 @@ h2 {
 }
 
 h3 {
+    font-size: 1.75em;
     font-family: 'Spectral', serif;
     text-align: center;
     margin: 0;
@@ -105,13 +110,27 @@ h4 {
     text-align: center;
 }
 
+h4, p {
+    font-size: 1.5em;
+}
+
+.subheaders {
+    font-style: italic;
+}
+
 .social {
     display: flex;
     justify-content: center;
 }
 
-.down-arrow {
-    position: absolute;
+.links {
+    text-decoration: none;
+    font-weight: bold;
+    color: #8A66C8;
+}
+
+.links:hover {
+    text-decoration: underline;
 }
 
 .about-me, .projects {
@@ -119,13 +138,28 @@ h4 {
     color: white;
 }
 
+.about-me-inner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .about-me-text {
-    padding: 1% 10%;
+    width: 25%;
+    padding: 0 1%;
+}
+
+#my-pic {
+    border-radius: 50%;
+    width: 15%;
+    height: 15%;
+    padding: 0 1%;
 }
 
 .skills-row {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .skill-logos {
@@ -163,4 +197,12 @@ h4 {
 
 .fa-bootstrap {
     color: #7952b3;
+}
+
+.projects {
+    text-align: center;
+}
+
+.projects > img {
+    width: 50%;
 }
