@@ -115,6 +115,7 @@ h4, p {
 
 .subheaders {
     font-style: italic;
+    margin-top: -1em;
 }
 
 .social {
@@ -151,8 +152,10 @@ h4, p {
 
 #my-pic {
     border-radius: 50%;
-    width: 15%;
-    height: 15%;
+    width: 18%;
+    height: 18%;
+    min-width: 200px;
+    min-height: 200px;
     padding: 0 1%;
 }
 
@@ -225,9 +228,24 @@ h4, p {
     color: #8A66C8;
 }
 
-/* Break point for the nav bar */
+.project-links {
+    font-weight: normal;
+}
+
+/* Break point for the nav bar - this is where the Contact section wraps */
 @media only screen and (max-width: 643px) {
     
+}
+
+/* Break point for about me - this is "medium screen size" defined by Microsoft responsive style guide */
+@media only screen and (max-width: 1007px) {
+    .about-me-inner {
+        flex-direction: column;
+    }
+
+    .about-me-text {
+        width: 58%;
+    }
 }
 
 /* Break point for contact links */
