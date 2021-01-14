@@ -84,6 +84,10 @@ nav > a:hover, .current {
     padding: 1%;
 }
 
+.contact {
+    text-align: center;
+}
+
 h1 {
     font-family: 'Fredericka the Great', cursive;
     font-size: 4em;
@@ -226,6 +230,10 @@ h4, p {
     text-decoration: none;
     font-weight: normal;
     color: #8A66C8;
+}
+
+.contact-links:hover {
+
 }
 
 .project-links {
