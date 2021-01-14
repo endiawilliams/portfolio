@@ -80,7 +80,7 @@ nav > a:hover, .current {
     color: white;
 }
 
-.about-me, .skills, .projects, .resume {
+.about-me, .skills, .projects, .contact {
     padding: 1%;
 }
 
@@ -101,7 +101,6 @@ h2 {
 
 h3 {
     font-size: 1.75em;
-    font-family: 'Spectral', serif;
     text-align: center;
     margin: 0;
 }
@@ -146,7 +145,7 @@ h4, p {
 }
 
 .about-me-text {
-    width: 25%;
+    width: 40%;
     padding: 0 1%;
 }
 
@@ -160,6 +159,8 @@ h4, p {
 .skills-row {
     display: flex;
     justify-content: space-evenly;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .skill-logos {
@@ -206,3 +207,27 @@ h4, p {
 .projects > img {
     width: 50%;
 }
+
+.contact-inner {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-links {
+    font-size: 2em;
+    text-decoration: none;
+    font-weight: normal;
+    color: #8A66C8;
+}
+
+/* Break point for the nav bar */
+@media only screen and (max-width: 643px) {
+    
+}
+
+/* Break point for contact links */
