@@ -240,6 +240,12 @@ h4, p {
     font-weight: normal;
 }
 
+.project-descriptions {
+    margin: 0 auto;
+    width: 45%;
+    padding: 0 1%;
+}
+
 /* Break point for the nav bar - this is where the Contact section wraps */
 @media only screen and (max-width: 643px) {
     
