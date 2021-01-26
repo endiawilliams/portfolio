@@ -129,7 +129,7 @@ h4, p {
 
 .links {
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 500;
     color: #8A66C8;
 }
 
@@ -236,10 +236,6 @@ h4, p {
 .contact-links:hover {
     color: #f06292;    
 } 
-
-.project-links {
-    font-weight: normal;
-}
 
 .project-descriptions {
     margin: 0 auto;
