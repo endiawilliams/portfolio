@@ -211,7 +211,7 @@ h4, p {
     text-align: center;
 }
 
-.projects > img {
+.projects > section > img {
     width: 50%;
 }
 
@@ -230,11 +230,12 @@ h4, p {
     text-decoration: none;
     font-weight: normal;
     color: #8A66C8;
+    transition: 0.3s;
 }
 
 .contact-links:hover {
-
-}
+    color: #f06292;    
+} 
 
 .project-links {
     font-weight: normal;
@@ -242,8 +243,8 @@ h4, p {
 
 .project-descriptions {
     margin: 0 auto;
-    width: 45%;
-    padding: 0 1%;
+    width: 50%;
+    margin-bottom: 1%;
 }
 
 /* Break point for the nav bar - this is where the Contact section wraps */
