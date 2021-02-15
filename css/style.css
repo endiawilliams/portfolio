@@ -13,6 +13,50 @@ body {
     background-color: #f8f9fa;
 }
 
+.mobile-nav-menu {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: #272C30;
+}
+
+.mobile-nav-content {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-nav-inner {
+    margin: 12px 0;
+    padding: 0 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.mobile-nav-menu a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 3em;
+    color: white;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.mobile-nav-menu .close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 12px 0;
+    padding: 0 20px;
+    font-size: 2em;
+}
+
 .container {
     position: absolute;
     top: 0;
@@ -32,12 +76,12 @@ body {
 nav {
     text-align: center;
     position: fixed;
-    z-index: 999;
+    z-index: 1;
     width: 100%;
     background-color: #272C30;
 }
 
-nav > a {
+nav > a, nav > i {
     margin: 12px 0;
     padding: 0 20px;
     font-size: 1.5em;
@@ -49,9 +93,20 @@ nav > a {
     transition: 0.3s;
 }
 
-nav > a:hover, .current {
+nav > i {
+    text-align: left;
+}
+
+.close-btn > i {
+    color: white;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+nav > a:hover, nav > i:hover, .mobile-nav-inner > a:hover, .current, .close-btn > i:hover {
     color: #8A66C8;
     opacity: 1;
+    cursor: pointer;
 }
 
 .social > a {
@@ -249,7 +304,9 @@ h4, p {
 
 /* Break point for the nav bar - this is where the Contact section wraps */
 @media only screen and (max-width: 643px) {
-    
+    nav {
+        text-align: left;
+    }
 }
 
 /* Break point for about me - this is "medium screen size" defined by Microsoft responsive style guide */
