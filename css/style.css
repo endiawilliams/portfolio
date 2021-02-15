@@ -284,6 +284,10 @@ h4, p {
     text-align: center;
 }
 
+.contact-inner > div {
+    padding: 5px;
+}
+
 .contact-links {
     font-size: 2em;
     text-decoration: none;
@@ -321,3 +325,8 @@ h4, p {
 }
 
 /* Break point for contact links */
+@media only screen and (max-width: 1259px) {
+    .contact-inner {
+        flex-direction: column;
+    }
+}
