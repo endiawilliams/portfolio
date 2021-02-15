@@ -45,7 +45,6 @@ window.addEventListener('resize', () => {
 
         navLinks.forEach(link => {
             link.addEventListener('click', (e) => {
-                console.log(e)
                 scrollListenerActive = false
                 removeCurrentClass()
                 e.target.classList.add('current')
@@ -108,8 +107,6 @@ const getActiveDiv = () => {
 }
 
 const removeCurrentClass = () => {
-    console.log("removeCurrentClass is being called")
-    console.log(homeLink)
     homeLink.classList.remove('current')
     aboutMeLink.classList.remove('current')
     skillsLink.classList.remove('current')
@@ -155,7 +152,6 @@ containerDiv.addEventListener('scroll', () => {
 
 navLinks.forEach(link => {
     link.addEventListener('click', (e) => {
-        console.log(e)
         scrollListenerActive = false
         removeCurrentClass()
         e.target.classList.add('current')
