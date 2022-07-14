@@ -9,15 +9,22 @@
     <script src="https://kit.fontawesome.com/c96dfb019c.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#home" class="nav-links" id="home-nav">HOME</a></li>
-            <li><a href="#about-me" class="nav-links" id="about-me-nav">ABOUT ME</a></li>
-            <li><a href="#skills" class="nav-links" id="skills-nav">SKILLS</a></li>
-            <li><a href="#projects" class="nav-links" id="projects-nav">PROJECTS</a></li>
-            <li><a href="#resume" class="nav-links" id="resume-nav">RESUME</a></li>
-            <li><a href="#contact" class="nav-links" id="contact-nav">CONTACT</a></li>
-        </ul>
-    </nav>
+    <div id="nav-container">
+        <div id="mobile-nav-bar">
+            <a href="javascript:void(0)" onclick="closeMobileNav()">
+                <i class="fas fa-times fa-2xl" id="mobile-nav-btn"></i>
+            </a>
+        </div>
+        <nav id="mobile-nav-menu">
+            <ul>
+                <li><a href="#home" class="nav-links" id="home-nav">HOME</a></li>
+                <li><a href="#about-me" class="nav-links" id="about-me-nav">ABOUT ME</a></li>
+                <li><a href="#skills" class="nav-links" id="skills-nav">SKILLS</a></li>
+                <li><a href="#projects" class="nav-links" id="projects-nav">PROJECTS</a></li>
+                <li><a href="#resume" class="nav-links" id="resume-nav">RESUME</a></li>
+                <li><a href="#contact" class="nav-links" id="contact-nav">CONTACT</a></li>
+            </ul>
+        </nav>
+    </div>
 </body>
 </html>

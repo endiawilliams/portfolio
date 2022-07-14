@@ -13,12 +13,24 @@ html, body {
 }
 
 body {
-    background-color: #272C30;
+    background-color: #202124;
     font-size: 100%;
 }
 
 a {
     color: white;
+}
+
+/* definitely don't want all links to be white, change later */
+
+#nav-container {
+    height: 100%;
+}
+
+#mobile-nav-bar {
+    width: 100%;
+    height: 3.5em;
+    background-color: #8A66C8;
 }
 
 nav {
@@ -46,3 +58,18 @@ nav > ul {
 nav > ul > li > a {
     text-decoration: none;
 }
+
+#mobile-nav-btn {
+    text-decoration: none;
+    position: absolute;
+    right: 0.5em;
+    top: 0.25em;
+    font-size: 2.5em;
+}
+
+/* maybe don't want the mobile nav to have an absolute position?
+when it has an absolute position this means that the rest of the
+navigation menu is going to center itself according to the borders
+of the page rather than say in between the nav menu and the bottom
+of the page, thus it will look uneven. maybe try 90% height on the
+menu itself and 10% height on the nav bar? */
